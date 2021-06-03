@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.9-slim
 
 RUN  wget  https://github.com/kelseyhightower/confd/releases/download/v0.16.0/confd-0.16.0-linux-amd64 -O /bin/confd \
     && chmod a+x /bin/confd \
