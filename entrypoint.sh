@@ -2,4 +2,4 @@
 
 confd -onetime -backend env
 
-exec $@
+/bin/bash -c $@
