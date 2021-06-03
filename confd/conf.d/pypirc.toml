@@ -1,0 +1,5 @@
+[template]
+src = "pypirc"
+dest = "/root/.pypirc"
+owner = "root"
+mode = "0600"

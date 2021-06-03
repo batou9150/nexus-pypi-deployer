@@ -1,0 +1,5 @@
+[template]
+src = "pip.conf"
+dest = "/root/.pip/pip.conf"
+owner = "root"
+mode = "0600"

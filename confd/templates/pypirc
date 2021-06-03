@@ -1,0 +1,7 @@
+[distutils]
+index-servers =
+    mypi
+[mypi]
+repository: {{ getenv "NEXUS_PYPI_INDEX" "http://localhost:8081/repository/pypi-internal/" }}
+username: {{ getenv "NEXUS_PYPI_USERNAME" "admin" }}
+password: {{ getenv "NEXUS_PYPI_PASSWORD" "admin123" }}
