@@ -15,7 +15,7 @@ variables:
   NEXUS_PYPI_USERNAME: "admin"
   NEXUS_PYPI_PASSWORD: "admin123"
 
-sonar:
+deploy:
   image: 
     name: batou9150/nexus-pypi-deployer
   script: 
