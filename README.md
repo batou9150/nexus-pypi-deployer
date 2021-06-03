@@ -19,6 +19,7 @@ deploy:
   image: 
     name: batou9150/nexus-pypi-deployer
   script: 
+    - nexus-pypi-deployer
     - python3 -m build
     - twine upload -r pypi-internal dist/*
 ```

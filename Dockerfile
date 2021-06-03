@@ -6,7 +6,5 @@ RUN  wget  https://github.com/kelseyhightower/confd/releases/download/v0.16.0/co
     && mkdir /root/.pip
 ADD confd /etc/confd
 
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod a+x /entrypoint.sh
-
-ENTRYPOINT ["/entrypoint.sh"]
+ADD nexus-pypi-deployer /bin/nexus-pypi-deployer
+RUN chmod a+x /bin/nexus-pypi-deployer
