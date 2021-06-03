@@ -20,5 +20,5 @@ sonar:
     name: batou9150/nexus-pypi-deployer
   script: 
     - python3 -m build
-    - twine upload -r mypi dist/*
+    - twine upload -r pypi-internal dist/*
 ```
